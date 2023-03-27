@@ -1,7 +1,4 @@
 .container{
-    position: absolute;
-    top:0;
-    left: 0;
     display: grid;
     grid-template-columns: 1fr 2.5fr 1fr;
     padding:40px;

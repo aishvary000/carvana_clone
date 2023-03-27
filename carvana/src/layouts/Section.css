@@ -1,0 +1,51 @@
+.section-box {
+    width:100%;
+    height:70vh;
+    position: relative;
+    
+}
+
+
+.section-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.heading
+{
+    position:absolute;
+    top:25%;
+    padding-left: 150px;
+    color: white;
+    font-size: 32px;
+}
+
+
+.heading-2
+{
+    position:absolute;
+    top:37%;
+    padding-left: 150px;
+    color: white;
+    font-size: 32px;
+}
+
+.heading-3
+{
+    position:absolute;
+    top:49%;
+    padding-left: 150px;
+    color: white;
+    font-size: 32px;
+}
+
+.inputArea
+{
+    position:absolute;
+    top:63%;
+    padding-left: 150px;
+    left:5%;
+    /* display: inline-block; */
+    
+}
