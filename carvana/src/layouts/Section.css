@@ -44,8 +44,27 @@
 {
     position:absolute;
     top:63%;
-    padding-left: 150px;
-    left:5%;
-    /* display: inline-block; */
+    margin-left: 80px;
+    /* left:5%; */
+    /* display: block; */
+    width: 450px;
+    /* border: solid;
+    border-width: 10px; */
     
 }
+
+.inputcss{
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.sIcon{
+    position: absolute;
+    left: 19%;
+    height: 16px;
+    top: 28%;
+}
+
+input { outline: none; }

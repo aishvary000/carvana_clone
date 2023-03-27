@@ -2,6 +2,8 @@ import react from "react";
 
 import "./Section.css";
 import bg from '../assets/download.jpeg'
+import sIcon from '../assets/searchIcon.png';
+
 
 const Section = () => {
 
@@ -22,7 +24,8 @@ const Section = () => {
     </div>
 
     <div className="inputArea">
-        <input type="text" />
+        <img src={sIcon} className="sIcon" alt="loading" />
+        <input className="inputcss" placeholder="Search by make, Model,Keyword" type="text" />
 
     </div>
     </div>

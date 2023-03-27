@@ -1,0 +1,21 @@
+.container-3-child-1{
+    padding:45px;
+    position: relative;
+}
+
+.container-3-child-2{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    color:#063C4A;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.container-3-child-3{
+    font-size: 18px;
+    color: #635E73;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
