@@ -7,22 +7,19 @@ const MainHeader = () => {
         <>
             <div className="container">
                 <div className="logo">
-                    <img src="https://www.carbravo.com/s3/uploads/US/Car_Bravo_Logo_7714028d5c.svg" alt="car_pic" className="logo__image" />
-                    
+                    <img src="https://www.carbravo.com/s3/uploads/US/Car_Bravo_Logo_7714028d5c.svg" alt="logo"/>
                 </div>
-                <div className="nav nav--center">
-                    <ul className='nav__items'>
-                        <li className="nav__item">Search Cars</li>
-                        <li className="nav__item">How it works</li>
-                        <li className="nav__item">Sell your car</li>
-                        <li className="nav__item">Ownership</li>
-                    </ul>
-                </div>
-                <div className="nav nav--right">
-                    <div className="nav--right__text">
+                <ul className='nav nav__items'>
+                        <li className="nav__item"><a href="#">Search Cars</a></li>
+                        <li className="nav__item"><a href="#">How it works</a></li>
+                        <li className="nav__item"><a href="#">Sell your car</a></li>
+                        <li className="nav__item"><a href="#">Ownership</a> </li>
+                </ul>
+                <div className="nav nav__right">
+                    <div className="nav__right__text">
                         My Account
                     </div>
-                    
+                    <span>Ham burger</span>
                 </div>
             </div>
         </>

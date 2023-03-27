@@ -1,7 +1,26 @@
+
+@font-face {
+    font-family: Nexa;
+    src: url('../Fonts/Nexa-Heavy.ttf');
+    font-weight: bold;
+  }
+  
+.nav__item a{
+    display: inline-block;
+    padding-bottom: 3px;
+    
+
+}
+.nav__item{
+    margin-right: 28px;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 2.5fr 1fr;
+    font-family: Nexa,sans-serif;
     padding:40px;
+    font-weight: 100;
+    font-size: 16px;
     background-color: white;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     width: 100%;
@@ -9,17 +28,40 @@
 .nav__items{
     list-style: none;
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: center;
+    
+    align-items: center;
+    color: #063c4a;
+}
+.nav__item a:visited,
+.nav__item a:hover,
+.nav__item a:active,
+.nav__item a:link
+{
+    text-decoration: none;
+    color: #063c4a;
+    letter-spacing: 2px;
+    transition: all .1s;
+    
+}
+.nav__item a:visited,
+.nav__item a:hover,
+.nav__item a:active
+{
+    transform: translateY(-1px);
+    border-bottom: 2px solid #07bc0c;
+
 }
 .nav__right{
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content:space-around;
+    align-items: center;
 }
-
+.nav__right__text{
+    align-self: center;
+}
 .logo{
     display: flex;
     justify-content: flex-start;
-    align-items: baseline;
+    align-items: center;
 }
