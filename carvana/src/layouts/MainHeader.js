@@ -1,5 +1,6 @@
 import './MainHeader.css'
-import favourite from '../assets/fav.svg'
+import fav from '../SVG/heart-outlined.svg'
+import menu from '../SVG/menu.svg' 
 
 const MainHeader = () => {
 
@@ -16,10 +17,12 @@ const MainHeader = () => {
                         <li className="nav__item"><a href="#">Ownership</a> </li>
                 </ul>
                 <div className="nav nav__right">
+                    <img src={fav} alt="favorites" />
                     <div className="nav__right__text">
                         My Account
                     </div>
-                    <span>Ham burger</span>
+                    <img src={menu} alt="menu" />
+                    
                 </div>
             </div>
         </>
