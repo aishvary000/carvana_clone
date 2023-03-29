@@ -35,13 +35,18 @@
 }
 .left__content--button{
     margin-top: 20px;
-    width: 70%;
+    width: 75%;
     padding:.5rem 3rem;
     background-color: rgb(3, 117, 211);
     border: none;
     display: inline-block;
     border-radius: 10px;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     cursor: pointer;
+    transition: all .2s;
+}
+.left__content--button:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 }
