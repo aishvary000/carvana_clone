@@ -1,19 +1,31 @@
-import './Mid_two.css';
-
+import classes from './Mid_two.module.css';
+import img from '../assets/homepage_family_four_sitting_couch_lg_c4389d415f.webp'
 
 const Mid_two = () =>{
 
     return(
         <>
-        <div className="container-3-child-1">
-            <div className="container-3-child-2" >
-               Shop the way you want - <br/>when you want
-            </div>
-            <p className="container-3-child-3">
-            Find the certified used vehicle you love and get it <br/> delivered* (where available) – or visit one of CarBravo's <br/> hundreds of showrooms.
-            </p>
+            <div className={classes.container}>
+                <div className={classes["left__content"]}>
+                    <div className={classes["left__content--primary"]}>
+                    <h4>
+                    Shop the way you want - when you want
+                    </h4>
+                    </div>
+                    <div className={classes["left__content--secondary"]}>
+                    Find the certified used vehicle you love and get it delivered* (where available) – or visit one of CarBravo's hundreds of showrooms.
+                    </div>
+                    <button className={classes["left__content--button"]}>
+                        Shop Now
+                    </button>
+                        
 
-        </div>
+
+                </div>
+                <div className={classes["right__content"]}>
+                    <img src={img} alt="family sitting together" />
+                </div>
+            </div>
         </>
 
     );

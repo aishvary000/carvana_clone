@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding:5rem;
+}
+.left__content{
+    flex:0 0 35%;
+    display: flex;
+    flex-direction: column;
+    padding:1rem 2.5rem;
+}
+.left__content--primary{
+    color:rgb(6, 60, 74);
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    
+    
+}
+.left__content--secondary{
+    margin-top: 20px;
+    color:rgb(99, 94, 115);
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+.right__content{
+    flex:0 0 50%;
+}
+.right__content img{
+    max-width: 80%;
+   
+}
+.left__content--button{
+    margin-top: 20px;
+    width: 70%;
+    padding:.5rem 3rem;
+    background-color: rgb(3, 117, 211);
+    border: none;
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
